@@ -1,0 +1,23 @@
+{
+  "name": "discografia-ajax",
+  "version": "1.0.0",
+  "description": "consulta a json",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabrerafrancisco/Discografia-Ajax.git"
+  },
+  "author": "francisco cabrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cabrerafrancisco/Discografia-Ajax/issues"
+  },
+  "homepage": "https://github.com/cabrerafrancisco/Discografia-Ajax#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
