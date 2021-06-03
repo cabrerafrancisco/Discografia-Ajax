@@ -19,20 +19,20 @@ btnBuscar.addEventListener('click' , () => {
         response.forEach((element) => {
             //crear los elementos
             const caja = document.createElement("div");
-            const txtArtista = document.createElement("h3");
-            const txtTitulo = document.createElement("h3");
-            const txtLanzamiento = document.createElement("h4");
-            const img = document.createElement("img");
+            const Artista = document.createElement("h3");
+            const Titulo = document.createElement("h3");
+            const Lanzamiento = document.createElement("h4");
+            const tapa = document.createElement("img");
             //agregar el contenido
-            txtArtista.textContent = element.artista;
-            txtTitulo.textContent = element.titulo;
-            txtLanzamiento.textContent = element.lanzamiento;
-            img.src = element.tapa;
+            Artista.textContent = element.artista;
+            Titulo.textContent = element.titulo;
+            Lanzamiento.textContent = element.lanzamiento;
+            tapa.src = element.tapa;
             //agrego todo a la caja
-            caja.appendChild(txtArtista);
-            caja.appendChild(txtTitulo);
-            caja.appendChild(txtLanzamiento);
-            caja.appendChild(img);
+            caja.appendChild(Artista);
+            caja.appendChild(Titulo);
+            caja.appendChild(Lanzamiento);
+            caja.appendChild(tapa);
             caja.classList.add("tarjeta");
             tarjetas.appendChild(caja);
         });
